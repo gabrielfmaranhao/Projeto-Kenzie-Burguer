@@ -16,14 +16,13 @@
     margin: 0px;
 }
 .card figure img {
-    width: 11.063rem;
-    height: 11.063rem;
+    width: 9rem;
+    height: 9rem;
 }
 .card main {
     display: flex;
     flex-direction: column;
     height: 55%;
-
 }
 .card main h3 {
     margin-left: 10px;
@@ -31,6 +30,8 @@
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
+    height: 21px;
+    margin-top: 10px;
 }
 .card main p {
     font-family: 'Inter';
@@ -39,7 +40,7 @@
     font-size: 12px;
     line-height: 16px;
     margin-left: 10px;
-    margin-top: 0px;
+    margin-top: 10px;
     color: #828282;
 }
 .card main strong {
@@ -64,4 +65,9 @@
     color: white;
     width: 60%;
     margin-left: 10px;
-} 
+}
+@media (min-width:800px) {
+    .card img {
+        margin-left: 70px;
+    }
+}
