@@ -1,0 +1,46 @@
+.containerVitrine {
+    height: 21.625rem;
+}
+.containerVitrine div {
+    overflow-y: hidden;
+}
+.ul {
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    padding: 0px;
+    margin-left: 17px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.cartText {
+    background: #27AE60;
+    width: 24rem;
+    border-radius: 5px 5px 0px 0px;
+    margin-left: 17px;
+    margin-top: 30px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (min-width:800px) {
+    .container {
+        display: flex;
+    }
+    .ul {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 60px;
+        max-width: 100%;
+    }
+    .cartText {
+        margin-right: 60px;
+    }
+}
